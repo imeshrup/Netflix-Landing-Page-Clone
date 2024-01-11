@@ -159,8 +159,78 @@ img{
     justify-content: center;
 }
 
+#tab-2-content .tab-2-content-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#tab-2-content .tab-2-content-bottom {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table thead th {
+    text-transform: uppercase;
+    padding: 0.8rem;
+}
+
+.table thead tr td {
+    color:#999;
+    padding: 0.8rem 1.2rem;
+    text-align: center;
+}
+
+.table tbody tr td:first-child {
+    text-align: left;
+}
+
+.table tbody tr:nth-child(odd) {
+    background: #222;
+}
+
+/* Footer */
+.footer {
+    max-width: 75%;
+    margin: 1rem;
+    overflow: auto;
+}
+
+.footer, .footer a {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+.footer li {
+    line-height: 1.9;
+}
 
 /*Container */
+
 .container {
     max-width: 70%;
     margin: auto;
@@ -169,6 +239,7 @@ img{
 }
 
 /* Text Styles */
+
 .text-xl {
     font-size: 2rrm;
     margin-bottom: 1rem;
@@ -176,6 +247,11 @@ img{
 
 .text-lg {
     font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text-md {
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
